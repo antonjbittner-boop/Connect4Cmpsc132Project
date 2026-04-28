@@ -29,8 +29,8 @@ board = canvas.create_image(740, 500, image=c4_board, anchor="center")
 orange_chip = canvas.create_image(1110, 500, image=c4_orange_chip, anchor="center")
 blue_chip = canvas.create_image(370, 500, image=c4_blue_chip, anchor="center")
 
-diff_blue_chip = tk.PhotoImage(data=blcn64diff_string)
-my_image = canvas.create_image(500, 500, image=diff_blue_chip, anchor="center")
+# diff_blue_chip = tk.PhotoImage(data=blcn64diff_string)
+# my_image = canvas.create_image(500, 500, image=diff_blue_chip, anchor="center")
 
 # def move(e):
 #     global diff_blue_chip
@@ -449,7 +449,6 @@ def clear_winner_text():
         canvas.delete(winner_text_item)
         winner_text_item = None
 
-    
 
 def start_drag(event):
     global drag_data, current_player
